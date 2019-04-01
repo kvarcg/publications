@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.0 0.03 0.3" ambient="0 0 0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+  
+<gi resolution="24" active="yes" method="crc" bounces="1" samples="100" factor="1.0" spread="0.8" lights="sun" average_albedo="0.3" blend_factor="0.6" use_ao="1" first_bounce_occ_samples = "10"/>
+
+  <ambientocclusion active="yes" technique="ssao_alchemy" blur="yes" numsamples="6" numslices="12" range="0.3" range_inc="0.1" multiview="no" />
+  
+  <camera name="first_person" apperture="70.0" focal_distance ="20.0" focal_range="40.0" near="0.2" far="20" follow="default_user" primary="true"/>
+
+   <directory path="factory"></directory>
+   
+   <object file="factory.obj" polygon_mode="triangles" />
+	
+  <input name="default_input" devicename="device0">
+  </input>
+	
+  <user name="default_user" control="navigate" speed="1.6" turn="2.0" input="default_input" position = "5.5, 6.8, -0.6"
+  lookat = "2.5, 6.3, -0.2">
+ </user>
+
+  <light name="sun" shadows="on" flux = "10000" color="1 0.9 0.7" active="true" type="spotlight" rsm="true" constant_bias = "0.004"
+         far_range="50" near_range="12" position="2,8.5,30" target="0,7,0"
+		 conical="false" resolution="1024" aperture="40" penumbra="25" spotlight_exponent="1.0" soft_shadow_size="2" > 
+    </light>
+  
+ <tonemapping name="tone" key="1.9" white="2.6 2.6 2.6" hysterisis="0.25" auto="0" active="1"/>
+
+</world>
+

@@ -1,0 +1,48 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 08.02.2014 19:01:16
+
+newmtl garage_floor
+	Ns 8.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6902 0.6902 0.6902
+	Kd 0.6902 0.6902 0.6902
+	Ks 0.0328 0.0328 0.0328
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\concrete_openfoundation.jpg
+	map_Kd maps\concrete_openfoundation.jpg
+	map_bump maps\concrete_openfoundation_b.jpg
+	bump maps\concrete_openfoundation_b.jpg
+
+newmtl garage_wall
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6902 0.6902 0.6902
+	Kd 0.6902 0.6902 0.6902
+	Ks 0.0936 0.0936 0.0936
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\ConcreteBunker.jpg
+	map_Kd maps\ConcreteBunker.jpg
+	map_bump maps\ConcreteBunker_b.jpg
+	bump maps\ConcreteBunker_b.jpg
+
+newmtl wire6
+	Ns 6.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2018 0.2018 0.2018
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Poster01.jpg
+	map_Kd maps\Poster01.jpg

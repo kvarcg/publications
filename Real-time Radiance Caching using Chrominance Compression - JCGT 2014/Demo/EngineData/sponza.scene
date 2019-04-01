@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.1 0.12 0.15" ambient="0.0001 0.0001 0.0001">
+   
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+   
+  <ambientocclusion active="no" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="0.2" range_inc="0.1"  multiview="no" views="sun"></ambientocclusion>
+  
+  <gi resolution="32" active="yes" method="crc" bounces="0" samples="100" factor="1" spread="0.6" lights="sun" average_albedo="0.7" blend_factor="0.6" use_ao="true"/>
+
+  <directory path="sponza"></directory>
+
+  <camera name="first_person" aperture="60.0" near="0.1" far="100" follow="default_user" primary="true">
+  </camera>
+
+   <spinner name = "spinner1" repeats = "0" axis = "0 1 0" period = "300">
+  <light name="sun" shadows="on" flux="200000" color="1 1 1" active="true" type="spotlight" rsm="true"
+         far_range="130" near_range="60" position="30,100,0" target="0,30,0"
+		 conical="false" resolution="1024" aperture="10" soft_shadow_size="2" 
+		 constant_bias="0.002">
+    </light>
+	</spinner>
+
+  <transformation name="environment" rotation="0,0,1,0" scale="1, 1, 1" translation="0,0,0">
+	<object name="Atrium" file="sponza_dualcolor.obj" ></object>
+  </transformation>
+  
+	<eventmessage event="init" recipient="spinner1" message="stop" delay="2.0" />
+	<eventmessage event="init" recipient="spinner1" message="stop" />
+
+  <user name="default_user" control="navigate" linear_speed="2" angular_speed="1" position = "-1.7, 7.7, 6.7" lookat="-1.1, 6.4, 4.1" input="default_input">  
+</user>
+
+   <input name="default_input" devicename="device0">
+	<eventmessage event="button2pressed" recipient="tone" message="key 0.7" />
+	<eventmessage event="button2released" recipient="tone" message="key 0.2" />
+	<eventmessage event="button2pressed" recipient="tone" message="white 5, 5, 5" />
+	<eventmessage event="button2released" recipient="tone" message="white 1.5, 1.5, 1.5" />
+  </input>
+
+  	<tonemapping name="tone" key="0.6" white="1.2 1.2 1.2" hysterisis="0.95" auto="0" active="0"/> 
+	
+</world>

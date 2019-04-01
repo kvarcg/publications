@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.0 0.0 0.0" ambient="0 0 0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+  
+<gi resolution="30" active="yes" method="crc" bounces="0" samples="100" factor="2.6" spread="1.0" lights="headlight" average_albedo="0.8" blend_factor="0.75" use_ao="1" first_bounce_occ_samples = "10"/>
+
+  <ambientocclusion active="no" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="0.3" range_inc="0.1"  multiview="no" />
+  
+  <camera name="first_person" apperture="70.0" focal_distance ="20.0" focal_range="40.0"
+          near="0.2" far="20" follow="Myself" primary="true"/>
+
+   <directory path="tripodroom"></directory>
+   
+   <object file="garage.obj" />
+   <object file="poster.obj" />
+	
+  <input name="default_input" devicename="device0">
+	 <eventmessage event="button2pressed" recipient="body_spin" message="toggle"/>
+	 <eventmessage event="button2pressed" recipient="head_spin" message="toggle"/>
+  </input>
+	
+  <user name="Myself" control="navigate" speed="1.6" turn="2.0" input="default_input"
+         position="-4.9, 1.6, -4.0" lookat="-4.9, 1.5, -1.0">
+		 </user>
+		 
+<transformation scale="0.008 0.008 0.008" rotation="90 0 1 0" translation="-5.50 0.9 2.0">
+ <spinner name="body_spin" period="30.0" repeats="0" axis="0,1,0">
+      <object name="tripod_body" file="tripod.obj" active="false"/>
+      <spinner name="head_spin" period="9.0" repeats="0" axis="0,1,0">
+        <object name="tripod_head" file="tripod_head.obj" active="false"/>
+        <light name="headlight" shadows="on" color="100 100 100" active="0" conical="true" constant_bias="0.007"
+			type="spotlight" rsm="true"
+          far_range="10" near_range="0.5" position="-4,83,-30" target="-4,83,-35"
+          resolution="512" aperture="50" penumbra="32" spotlight_exponent="4.0" soft_shadow_size="2"/>
+      </spinner>
+    </spinner> 	
+</transformation>
+
+	<eventmessage event="init" recipient="headlight" message="enable" delay="1"/>
+	<eventmessage event="init" recipient="tripod_body" message="enable" delay="1"/>
+	<eventmessage event="init" recipient="tripod_head" message="enable" delay="1"/>
+	
+	<eventmessage event="init" recipient="head_spin" message="start"/>
+  <eventmessage event="init" recipient="body_spin" message="start"/>
+
+	<tonemapping name="tone" key="0.5" white="1.3 1.3 1.3" hysterisis="0.25" auto="0" active="1"/>
+
+</world>

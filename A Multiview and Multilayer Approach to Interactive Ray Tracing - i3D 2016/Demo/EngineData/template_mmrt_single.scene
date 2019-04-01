@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0 0 0" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "1.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+	
+	<!-- Adjust the tracing parameters. Units are in meters.
+	"method", use "fragment" for MFT
+	"active", whether the tracing node is active
+	"application", the application that will be used "path_tracing" or "ambient_occlusion"
+	"buckets", the number of per-pixel uniform depth subdivisions (buckets). Use between 4 and 8.
+	"faces", the number of faces to use: "single" or "cubemap".
+	"face_resolution", the cubemap face resolution compared to the main view. 1.0 uses the same resolution, 0.5 is half, etc.
+	"indirect_bounces", the number of indirect bounces
+	"iterations_per_frame", the number of iterations for each frame
+	"progressive", whether progressive tracing is enabled
+	"thickness" the thickness of each fragment in scene units. Increasing this directly may improve the performance but can decrease quality as the accuracy of the rays is relaxed.
+	"samples_per_ray", the number of marching iterations per face. -1 denotes linear (conservative) marching, -2 denotes HiZ marching.
+	"ray_distance", the ray distance for ambient occlusion.
+	"max_layers", the max number of layers that will be sorted. This should reflect the depth complexity of the scene.
+	"prealloc_fragments", the maximum number of fragments the scene is expected to generate. This is not required, but it good practice as it avoids frequent reallocating of the internal buffers
+	"dof", whether Depth of Field is enabled
+	"focal_distance", the focus distance, i.e., where the objects appear sharp.
+	"aperture_radius", aperture size to increase/decrease Depth of Field	
+	!-->
+ 	<tracing method="fragment" 
+	active="true" 
+	application="path_tracing"
+	buckets="4" 
+	faces="single"
+	indirect_bounces="1" 
+	iterations_per_frame="1" 
+	progressive="true"
+	thickness="0.05"
+	samples_per_ray="30"
+	ray_distance="0.5"
+	max_layers="50"
+	prealloc_fragments = "5000000"
+	dof="1" focal_distance="1" aperture_radius="0.004"/> 
+	
+	<!-- 
+	Add the directory subpath here
+	<directory path=""/> 
+	-->
+	
+	<!-- 
+	Modify camera aperture, near and far-field parameters here
+	-->
+	<camera name="first_person" aperture="45.0" near="0.1" far="10" follow="default_user" primary="true">
+	</camera>
+	
+	<!-- 
+	Modify light settings here
+	-->
+	<light name="sun" shadows="on" flux="12" color="1 0.95 0.9" active="true" type="spotlight" rsm="false"
+	 far_range="10" near_range="0.6" 
+	 position	=" 0.99, 0.84, 1.95"
+	 target		=" -0.62, -0.06, -0.43"
+	 conical="true" resolution="1024" aperture="90" soft_shadow_size="0.1" 
+	 penumbra="80" spotlight_exponent="1.0"
+	 constant_bias="0.0019">
+	</light>
+		
+		
+	<!-- 
+	Add your .obj models here. The transformation group can be nested.
+	<transformation name="environment" rotation="0,0,1,0" scale="1 1 1" translation="0,0,0">
+		<object file="object1.obj"/>		
+		<transformation name="localtransform" rotation="0,0,1,0" scale="1 1 1" translation="0,0,0">
+			<object file="object2.obj"/>		
+		</transformation>
+	</transformation>
+	-->
+
+	<!-- 
+	Modify user parameters here, such as position and lookat
+	-->
+	<user name="default_user" control="roaming" linear_speed="0.5" angular_speed="1" 
+	position = "0 0 0"
+	lookat   = "0 0 -10"
+	input="default_input">  
+	</user>	
+    
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="1" white="1 1 1" hysterisis="0.95" auto="0" active="1"/> 
+
+</world>

@@ -1,0 +1,271 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 16.03.2016 01:04:04
+
+newmtl Iron
+	Ns 90.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3 0.3 0.3
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\STEELPLT.jpg
+	map_Kd maps\STEELPLT.jpg
+	metallic 1
+
+newmtl 10___Default
+	Ns 65.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.08 0.08 0.08
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Rubber0044_1_T.jpg
+	map_Kd maps\Rubber0044_1_T.jpg
+	map_bump maps\Rubber0044_1_T.jpg
+	bump maps\Rubber0044_1_T.jpg
+	metallic 0.0
+
+newmtl Aluminum
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.3240 0.3240 0.3240
+	Ke 0.0000 0.0000 0.0000
+	metallic 1
+
+newmtl MetalPlates
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.13 0.13 0.13
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\MetalPainted0164_1_T.jpg
+	map_Kd maps\MetalPainted0164_1_T.jpg
+	map_bump maps\MetalPainted0164_1_B.jpg
+	bump maps\MetalPainted0164_1_B.jpg
+	metallic 0.5
+
+newmtl Pad
+	Ns 126.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.8941 0.8941 0.8941
+	Kd 0.2 0.2 0.2
+	Ks 0.1 0.1 0.1
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Panel
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Buttons0150_1_S.jpg
+	map_Kd maps\Buttons0150_1_S.jpg
+
+newmtl LightCasing
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+	metallic 1
+
+newmtl RedPaint
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\MetalPainted0081_1_T.jpg
+	map_Kd maps\MetalPainted0081_1_T.jpg
+
+newmtl Moniters
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Wall
+	Ns 21.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1170 0.1170 0.1170
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\gy003.jpg
+	map_Kd maps\gy003.jpg
+	map_bump maps\gy003.jpg
+	bump maps\gy003.jpg
+
+newmtl DarkMetel
+	Ns 43.2193
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.2000 0.2000 0.2000
+	Kd 0.8000 0.8000 0.8000
+	Ks 0.2000 0.2000 0.2000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl RailYellow
+	Ns 44.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5608 0.0745 0.0000
+	Kd 0.5608 0.0745 0.0000
+	Ks 0.1890 0.1890 0.1890
+	Ke 0.0000 0.0000 0.0000
+	metallic 0.9
+
+newmtl Steps
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\SewerGrill1_t.tga
+	map_Kd maps\SewerGrill1_t.tga
+	map_d maps\SewerGrill1_t.tga
+	map_bump maps\SewerGrill1_b.jpg
+	bump maps\SewerGrill1_b.jpg
+	metallic 0.97
+
+newmtl ConcreteBeige
+	Ns 21.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2970 0.2970 0.2970
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\concrete_openfoundation.jpg
+	map_Kd maps\concrete_openfoundation.jpg
+	map_bump maps\concrete_openfoundation.jpg
+	bump maps\concrete_openfoundation.jpg
+
+newmtl Slide
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1890 0.1890 0.1890
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\FloorsVarious0054_1_T.jpg
+	map_Kd maps\FloorsVarious0054_1_T.jpg
+	map_bump maps\FloorsVarious0054_1_B.jpg
+	bump maps\FloorsVarious0054_1_B.jpg
+
+newmtl Door01
+	Ns 20.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.52700 0.52700 0.52700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blastdoor.jpg
+	map_Kd maps\blastdoor.jpg
+	map_bump maps\blastdoor_n.jpg
+	bump maps\blastdoor_n.jpg
+	metallic 1
+
+newmtl Container
+	Ns 38.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9804 0.9804 0.9804
+	Kd 0.9804 0.9804 0.9804
+	Ks 0.1440 0.1440 0.1440
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\BluePaint_t.jpg
+	map_Kd maps\BluePaint_t.jpg
+	map_bump maps\BluePaint_b.jpg
+	bump maps\BluePaint_b.jpg
+	metallic 1
+
+newmtl 08___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\YellowPaint_t.jpg
+	map_Kd maps\YellowPaint_t.jpg
+	map_bump maps\BluePaint_b.jpg
+	bump maps\BluePaint_b.jpg
+	metallic 1

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.2, 0.4, 0.85" ambient="0.0 0.0 0.0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+      
+	<ambientocclusion active="yes" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="0.6" range_inc="0.1"  multiview="no" views="sun"></ambientocclusion>
+	
+  <gi resolution="24" active="yes" method="crc" bounces="0" samples="200" factor="1" spread="0.8" lights="sun sky" average_albedo="0.7" blend_factor="0.6" use_ao="true" first_bounce_occ_samples = "10"/>
+  
+  <directory path="barn"></directory>
+  
+    <camera name="first_person" aperture="55.0" near="1" far="200" follow="default_user" primary="true">
+  </camera>
+  
+  <eventmessage event="init" recipient="user_spin" message="stop"/>
+  <spinner name="user_spin" period="50.0" repeats="0" axis="0.9,1,0">
+	<light name="sun" shadows="on" flux="100000" color="1.5 1.3 1.1" active="true" type="spotlight" rsm="true"
+         far_range="500" near_range="50" position="0,200,300" target="0,0,0"
+		 conical="false" resolution="1024" aperture="20" soft_shadow_size="1" constant_bias="0.001">
+    </light>
+  </spinner>
+  
+  	<light name="sky" shadows="on" flux="30000" color="0.02,0.02,0.05" active="true" type="spotlight" rsm="true"
+			far_range="410" near_range="60" position="0,120,0" target="0,0,0" 
+		    resolution="1024" conical="false" apperture="20" soft_shadow_size="2" constant_bias="0.002">
+	</light> 
+
+  <object file="barn_houses.obj"/>
+
+    <user name="default_user" control="navigate" linear_speed="14" angular_speed="1" 
+	position = "44.3, 10.5, 37.1"
+	target   = "41.3, 10.3, 37.0"
+	input="default_input">  
+  </user>      
+    
+  <input name="default_input" devicename="device0">
+  </input>
+
+  <tonemapping name="tone" key="5 5 5" white="10 10 10" hysterisis="0.95" auto="false" active="0"/>
+
+</world>

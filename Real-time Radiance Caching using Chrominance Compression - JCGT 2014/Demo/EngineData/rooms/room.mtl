@@ -1,0 +1,35 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.03.2014 14:31:55
+
+newmtl _room307___Default
+	Ns 50.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\concrete_openfoundation.jpg
+	map_Kd maps\concrete_openfoundation.jpg
+	map_Ks maps\concrete_openfoundation_s.tif
+	map_bump maps\concrete_openfoundation_b.jpg
+	bump maps\concrete_openfoundation_b.jpg
+
+newmtl _room301___Default
+	Ns 60.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.5000 0.5000 0.5000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\ConcreteBunker.jpg
+	map_Kd maps\ConcreteBunker.jpg
+	map_bump maps\ConcreteBunker_b.jpg
+	bump maps\ConcreteBunker_b.jpg

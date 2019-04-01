@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0 0 0" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "1.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+	
+	<!-- Adjust the tracing parameters. Units are in meters.
+	"method", use "analytic" for DIRT
+	"active", whether the tracing node is active
+	"faces", the number of faces to use: "single" or "cubemap".
+	"indirect_bounces", the number of indirect bounces
+	"block_size", the XY block size applied. 1 means a 1x1 block size (no downscaling), 2 is 2x2, etc. Use 2x2 for common scenes and move to 4x4 or 8x8 for very complex scenes/large resolutions.
+	"buckets", the number of per-pixel uniform depth subdivisions (buckets). Use 12-40 for common scenes.
+	"conservative", use true for DIRT
+	"progressive", whether progressive tracing is enabled
+	"accurate_visibility", selects between raytraced shadows ("true") and shadow maps ("false")
+	"prealloc_fragments", the maximum number of fragments the scene is expected to generate. This is not required, but it good practice as it avoids frequent reallocating of the internal buffers
+	"dof", whether Depth of Field is enabled
+	"focal_distance", the focus distance, i.e., where the objects appear sharp
+	"aperture_radius", aperture size to increase/decrease Depth of Field	
+	!-->
+ 	<tracing method="analytic" 
+	active="true" 
+	faces="cubemap"
+	indirect_bounces="1" 
+	block_size="2" 
+	buckets="16" 
+	conservative="true"
+	progressive="true"
+	accurate_visibility = "false"
+	prealloc_fragments = "15000000"
+	dof="1" focal_distance="1" aperture_radius="0.004"/> 
+	
+	<!-- 
+	Add the directory subpath here
+	<directory path=""/> 
+	-->
+	
+	<!-- 
+	Modify camera aperture, near and far-field parameters here
+	-->
+	<camera name="first_person" aperture="45.0" near="0.1" far="10" follow="default_user" primary="true">
+	</camera>
+	
+	<!-- 
+	Modify light settings here
+	-->
+	<light name="sun" shadows="on" flux="12" color="1 0.95 0.9" active="true" type="spotlight" rsm="false"
+	 far_range="10" near_range="0.6" 
+	 position	=" 0.99, 0.84, 1.95"
+	 target		=" -0.62, -0.06, -0.43"
+	 conical="true" resolution="1024" aperture="90" soft_shadow_size="0.1" 
+	 penumbra="80" spotlight_exponent="1.0"
+	 constant_bias="0.0019">
+	</light>
+		
+		
+	<!-- 
+	Add your .obj models here. The transformation group can be nested.
+	<transformation name="environment" rotation="0,0,1,0" scale="1 1 1" translation="0,0,0">
+		<object file="object1.obj"/>		
+		<transformation name="localtransform" rotation="0,0,1,0" scale="1 1 1" translation="0,0,0">
+			<object file="object2.obj"/>		
+		</transformation>
+	</transformation>
+	-->
+
+	<!-- 
+	Modify user parameters here, such as position and lookat
+	-->
+	<user name="default_user" control="roaming" linear_speed="0.5" angular_speed="1" 
+	position = "0 0 0"
+	lookat   = "0 0 -10"
+	input="default_input">  
+	</user>	
+    
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="1" white="1 1 1" hysterisis="0.95" auto="0" active="1"/> 
+
+</world>

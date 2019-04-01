@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0 0 0" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "1.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+ 
+ 	<tracing method="analytic" 
+	active="true" 
+	faces="single" 
+	indirect_bounces="1" 
+	progressive="true"
+	block_size="2" 
+	buckets="20" 
+	conservative="true" 
+	accurate_visibility = "false"
+	prealloc_fragments="22000000"
+	dof="1" focal_distance="4.3" aperture_radius="0.004"/> 
+	
+	<directory path="Hangar"/>
+	
+	<camera name="first_person" aperture="60.0" near="1" far="100" follow="default_user" primary="true">
+	</camera>
+
+	<light name="sun" shadows="on" flux="3000" color="1, 0.95, 0.87" active="true" type="spotlight" rsm="false"
+	 far_range="40" near_range="1" 
+	 position= "-4.33, 30.47, 20.36"
+	 target    ="-3.41, 3.14, 21.88"
+	 conical="true" resolution="1024" aperture="35" soft_shadow_size="0.1" 
+	 penumbra="20" spotlight_exponent="1.0"
+	 constant_bias="0.002">
+	</light>
+
+	<transformation name="environment" rotation="0,0,1,0" scale="1, 1, 1" translation="0,0,0">
+		<object file="hangar-lights.obj"/>  
+		<object file="hangar.obj" double_sided="true"/>		
+	<transformation rotation="230,0,1,0" translation="3, 0, 26">
+		<object file="dreadnaught.obj"/>
+	</transformation>
+	</transformation>
+  
+	<user name="default_user" control="roaming" linear_speed="4" angular_speed="1" 
+	position ="-8.73, 4.57, 8.24"
+	target   ="-0.93, -0.84, 28.31"
+	input="default_input">  
+	</user>		
+	
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="1" white="2 2 2" hysterisis="0.95" auto="0" active="1"/> 
+
+</world>

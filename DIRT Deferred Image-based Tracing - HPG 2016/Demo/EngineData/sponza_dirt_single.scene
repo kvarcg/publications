@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.45, 0.65, 0.86" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "1.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+
+ 	<tracing method="analytic" 
+	active="true" 
+	faces="single"
+	indirect_bounces="1" 
+	block_size="2" 
+	buckets="44" 
+	conservative="true"
+	progressive="true"
+	accurate_visibility = "false"
+	prealloc_fragments="18000000"
+	dof="1" focal_distance="4.5" aperture_radius="0.007"/>
+ 
+	<directory path="sponza"/>
+	
+	<camera name="first_person" aperture="45.0" near="0.1" far="100" follow="default_user" primary="true">
+	</camera>
+	
+	<light name="sun" shadows="on" flux="30000" color="1 0.945 0.66" active="true" type="spotlight" rsm="false"
+	 far_range="130" near_range="20" position="-10.0, 40.0, 0.0" target="0,0,0"
+	 conical="false" resolution="4096" aperture="40" soft_shadow_size="0.05" 
+	 constant_bias="0.0005">
+	</light>
+
+	<transformation name="environment" rotation="0,0,1,0" scale="1, 1, 1" translation="0,0,0">
+		<object name="Atrium" file="sponza_dualcolor.obj" />
+	</transformation>
+	
+	<user name="default_user" control="roaming" linear_speed="2" angular_speed="1" 
+	position ="-1.62, 2.58, 8.79"
+	lookat 	 ="-1.17, 2.59, 7.87"
+	input="default_input">  
+	</user>
+	
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="1" white="2,2,2" hysterisis="0.95" auto="0" active="1"/> 
+
+</world>

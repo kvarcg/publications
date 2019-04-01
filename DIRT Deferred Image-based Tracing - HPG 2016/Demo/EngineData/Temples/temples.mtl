@@ -1,0 +1,322 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 21.01.2014 17:50:02
+
+newmtl _templeDrum2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Drum2_t.jpg
+	map_Kd maps\Drum2_t.jpg
+	map_bump maps\Drum2_b.jpg
+	bump maps\Drum2_b.jpg
+
+newmtl _templeDrum3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Drum1_3.jpg
+	map_Kd maps\Drum1_3.jpg
+	map_bump maps\Drum1_t.jpg
+	bump maps\Drum1_t.jpg
+
+newmtl _templeDrum1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Drum1_t.jpg
+	map_Kd maps\Drum1_t.jpg
+	map_bump maps\Drum1_t.jpg
+	bump maps\Drum1_t.jpg
+
+newmtl _templeDrum4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Drum1_4.jpg
+	map_Kd maps\Drum1_4.jpg
+	map_bump maps\Drum1_t.jpg
+	bump maps\Drum1_t.jpg
+
+newmtl _templebreak1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\break1.jpg
+	map_Kd maps\break1.jpg
+	map_bump maps\break1.jpg
+	bump maps\break1.jpg
+
+newmtl _templeface1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face1_t.jpg
+	map_Kd maps\face1_t.jpg
+	map_bump maps\face1_t.jpg
+	bump maps\face1_t.jpg
+
+newmtl _templeface4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face4_t.jpg
+	map_Kd maps\face4_t.jpg
+	map_bump maps\face4_t.jpg
+	bump maps\face4_t.jpg
+
+newmtl _templeface3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face3_t.jpg
+	map_Kd maps\face3_t.jpg
+	map_bump maps\face2_t.jpg
+	bump maps\face2_t.jpg
+
+newmtl _templeface2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face2_t.jpg
+	map_Kd maps\face2_t.jpg
+	map_bump maps\face2_t.jpg
+	bump maps\face2_t.jpg
+
+newmtl _templetri1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tri_t.jpg
+	map_Kd maps\tri_t.jpg
+	map_bump maps\Drum1_t.jpg
+	bump maps\Drum1_t.jpg
+
+newmtl _templebase1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\floor1.jpg
+	map_Kd maps\floor1.jpg
+	map_bump maps\floor1.jpg
+	bump maps\floor1.jpg
+
+newmtl _templebase2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\floor2.jpg
+	map_Kd maps\floor2.jpg
+	map_bump maps\floor2.jpg
+	bump maps\floor2.jpg
+
+newmtl _templebase3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\floor3.jpg
+	map_Kd maps\floor3.jpg
+	map_bump maps\floor3.jpg
+	bump maps\floor3.jpg
+
+newmtl _templebase4
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\floor4.jpg
+	map_Kd maps\floor4.jpg
+	map_bump maps\floor4.jpg
+	bump maps\floor4.jpg
+
+newmtl _templedrops
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\drops_t.jpg
+	map_Kd maps\drops_t.jpg
+	map_bump maps\face1_t.jpg
+	bump maps\face1_t.jpg
+
+newmtl _templecorner
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\corner_t.jpg
+	map_Kd maps\corner_t.jpg
+	map_bump maps\face1_t.jpg
+	bump maps\face1_t.jpg
+
+newmtl cliff01
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.01530 0.01530 0.01530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Cliff01.jpg
+	map_Kd maps\Cliff01.jpg
+	map_bump maps\Cliff01_n.jpg
+	bump maps\Cliff01_n.jpg
+
+newmtl cliff02
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.01530 0.01530 0.01530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Cliff02.jpg
+	map_Kd maps\Cliff02.jpg
+	map_bump maps\Cliff02_n.jpg
+	bump maps\Cliff02_n.jpg
+
+newmtl cliff03
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.01530 0.01530 0.01530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Cliff03.jpg
+	map_Kd maps\Cliff03.jpg
+	map_bump maps\Cliff03_n.jpg
+	bump maps\Cliff03_n.jpg
+
+newmtl dirt
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.01530 0.01530 0.01530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\gravelc.jpg
+	map_Kd maps\gravelc.jpg
+	map_bump maps\gravelc_n.jpg
+	bump maps\gravelc_n.jpg

@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!--
+
+================================================================================
+XEngine v1.1 Beta License
+================================================================================
+gepap@aueb.gr
+kvardis@aueb.gr
+
+================================================================================
+The MIT License (MIT)
+
+Copyright (C) 2013 The AUEB Computer Graphics Group
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+================================================================================
+
+-->
+<!--Root-->
+<EngineConfig>
+	<!--General Settings-->
+	<Directory>
+      <!-- the application path is an absolute path pointing to the application-->
+      <!-- this always point to the current directory and is implementation independent -->
+      <AppPath path=".\"/>
+      <!-- the data path is an absolute or a relative path pointing to the data folder(s)-->
+      <DataPath path=".\EngineData\" type="relative"/>
+      <DataPath path="..\EngineData\" type="relative"/>
+      <!-- the shader path is relative to the application path(s)-->
+      <!-- it contains the location of the shader files -->
+      <ShaderPath path=".\Shaders\"/>
+      <ShaderPath path="..\Shaders\"/>
+	</Directory>
+	<!--Scene Settings-->
+	<Scene>
+		<!--Scene Name-->
+	</Scene>
+	<!--View Settings-->
+  <View>
+		<!--View FullScreen Information-->
+		<FullSize width="1024" height="1024" startFullScreen="false"/>
+		<!--View Window Information-->
+		<WindowSize width="1280" height="720"/>
+	</View>
+</EngineConfig>

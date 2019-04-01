@@ -1,0 +1,219 @@
+# 3ds Max Wavefront OBJ Exporter v0.94b - (c)2007 guruware
+# File Created: 25.08.2010 11:05:46
+
+newmtl wb
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\wb_t.jpg
+	map_Kd maps\wb_t.jpg
+	map_bump maps\wb_b.jpg
+	bump maps\wb_b.jpg
+
+newmtl pod
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3420 0.3420 0.3420
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\pod01_t.jpg
+	map_Kd maps\pod01_t.jpg
+	map_bump maps\pod01_b.jpg
+	bump maps\pod01_b.jpg
+
+newmtl Hlight
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1530 0.1530 0.1530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\HLight_t.jpg
+	map_Kd maps\HLight_t.jpg
+	map_bump maps\HLight_b.jpg
+	bump maps\HLight_b.jpg
+
+newmtl coil1
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.8370 0.8370 0.8370
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Coil1_t.jpg
+	map_Kd maps\Coil1_t.jpg
+	map_bump maps\Coil1_b.jpg
+	bump maps\Coil1_b.jpg
+
+newmtl podBottom
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2070 0.2070 0.2070
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\podB1_t.jpg
+	map_Kd maps\podB1_t.jpg
+	map_bump maps\podB1_t.jpg
+	bump maps\podB1_t.jpg
+
+newmtl pglow
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.1000 0.1000 0.1000
+	map_Ka maps\pglow.jpg
+	map_Kd maps\pglow.jpg
+
+newmtl Hose
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3600 0.3600 0.3600
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Hose1_t.jpg
+	map_Kd maps\Hose1_t.jpg
+	map_bump maps\Hose1_b.jpg
+	bump maps\Hose1_b.jpg
+
+newmtl hood3
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Hood03_t.jpg
+	map_Kd maps\Hood03_t.jpg
+
+newmtl batterybox
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\batterybox.jpg
+	map_Kd maps\batterybox.jpg
+	map_Ke maps\batterybox_e.jpg
+
+newmtl hood2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Hood02_t.jpg
+	map_Kd maps\Hood02_t.jpg
+	map_bump maps\Hood01_b.jpg
+	bump maps\Hood01_b.jpg
+
+newmtl back_camera
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3420 0.3420 0.3420
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\bckcam_t.jpg
+	map_Kd maps\bckcam_t.jpg
+	map_bump maps\bckcam_t.jpg
+	bump maps\bckcam_t.jpg
+
+newmtl gun_polish
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.4230 0.4230 0.4230
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\gun_polish.jpg
+	map_Kd maps\gun_polish.jpg
+
+newmtl guncooler
+	Ns 31.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.6570 0.6570 0.6570
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\gun_cooler.tif
+	map_Kd maps\gun_cooler.tif
+	map_d maps\gun_cooler.tif
+
+newmtl ammobox
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 1.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\ammobox_t.jpg
+	map_Kd maps\ammobox_t.jpg
+	map_Ks maps\ammobox_s.tif
+	map_bump maps\ammobox_b.jpg
+	bump maps\ammobox_b.jpg

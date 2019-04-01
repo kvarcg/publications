@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.1 0.2 0.4" ambient="0 0 0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+  
+<gi resolution="16" active="yes" method="crc" bounces="1" samples="100" factor="1.0" spread="1.0" lights="lightR lightG lightB" average_albedo="0.8" blend_factor="0.9" use_ao="0" first_bounce_occ_samples = "20"/>
+
+  <ambientocclusion active="no" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="0.3" range_inc="0.1"  multiview="no" />
+  
+  <camera name="first_person" apperture="70.0" focal_distance ="20.0" focal_range="40.0" near="0.2" far="20" follow="Myself" primary="true"/>
+
+   <directory path="rooms"></directory>
+   
+   <object file="room.obj" />
+	
+  <input name="default_input" devicename="device0">
+  </input>
+	
+  <user name="Myself" control="navigate" speed="1.6" turn="2.0" input="default_input"
+         position="-1,1,7" lookat="0,1.8,0">
+	 </user>
+
+		 <light name="lightR" shadows="on" flux = "80" color="1 0 0" active="0" 
+			  conical="true" type="spotlight" rsm="true"
+              attenuation="on" far_range="10" near_range="1" position="0.5,4.6,-2" target="-2,3,-2"
+              resolution="512" aperture="30" penumbra="20" soft_shadow_size="3" />
+			  
+			<light name="lightG" shadows="on" flux = "80" color="0 1 0" active="0" 
+			  conical="true" type="spotlight" rsm="true"
+              attenuation="on" far_range="10" near_range="1" position="0.5,4.6,0" target="-2,3,0"
+              resolution="512" aperture="30" penumbra="20" soft_shadow_size="3" />
+			  
+			 <light name="lightB" shadows="on" flux = "80" color="0 0 1" active="0" 
+			  conical="true" type="spotlight" rsm="true"
+              attenuation="on" far_range="10" near_range="1" position="0.5,4.6,2" target="-2,3,2"
+              resolution="512" aperture="30" penumbra="20" soft_shadow_size="3" />
+	
+	<transformation translation="0.5,2.05,-2">
+		<swing name="swing1" repeats = "0" axis = "0 0 1" period = "5" angle1="0" angle2="-180">
+			<object name="shut01" file="shutter.obj"/>
+			<transformation translation="0.1,0,0">
+				<object name="_shut01" file="shutter.obj"/>
+			</transformation>
+		</swing>
+	</transformation>
+	<transformation translation="0.5,2.05,0">
+		<swing name="swing2" repeats = "0" axis = "0 0 1" period = "5" angle1="0" angle2="-180">
+			<object name="shut02" file="shutter.obj"/>
+			<transformation translation="0.1,0,0">
+				<object name="_shut02" file="shutter.obj"/>
+			</transformation>
+		</swing>
+	</transformation>
+	<transformation translation="0.5,2.05,2">
+		<swing name="swing3" repeats = "0" axis = "0 0 1" period = "5" angle1="0" angle2="-180">
+			<object name="shut03" file="shutter.obj"/>
+			<transformation translation="0.1,0,0">
+				<object name="_shut03" file="shutter.obj"/>
+			</transformation>
+		</swing>
+	</transformation>
+
+	<eventmessage event="init" recipient="lightR" message="enable" delay="1"/>
+	<eventmessage event="init" recipient="lightG" message="enable" delay="3"/>
+	<eventmessage event="init" recipient="lightB" message="enable" delay="2"/>
+	
+	<eventmessage event="init" recipient="filterRED" message="show" delay="1"/>
+	<eventmessage event="init" recipient="filterGREEN" message="show" delay="3"/>
+	<eventmessage event="init" recipient="filterBLUE" message="show" delay="2"/>
+	
+	<eventmessage event="init" recipient="swing1" message="start" delay="0.0"/>
+	<eventmessage event="init" recipient="swing2" message="start" delay="0.1"/>
+	<eventmessage event="init" recipient="swing3" message="start" delay="0.2"/>
+	
+	<transformation translation="0.5,0,-2">
+		<object name="spotRED" file="spotlight.obj"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,0">
+		<object name="spotGREEN" file="spotlight.obj"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,2">
+		<object name="spotBLUE" file="spotlight.obj"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,-2">
+		<object name="filterRED" file="filterRED.obj" visible="false"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,0">
+		<object name="filterGREEN" file="filterGREEN.obj" visible="false"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,2">
+		<object name="filterBLUE" file="filterBLUE.obj" visible="false"/>
+	</transformation>
+	
+	<transformation translation="0.5,0,-4">
+		<object name="sb01" file="shutter_base.obj"/>
+	</transformation>
+	<transformation translation="0.5,0,2">
+		<object name="sb02" file="shutter_base.obj"/>
+	</transformation>
+  
+	<tonemapping name="tone" key="2" white="6 6 6" hysterisis="0.25" auto="0" active="1"/>
+
+</world>
+

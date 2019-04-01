@@ -1,0 +1,215 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 06.03.2014 16:28:48
+
+newmtl _factorycementfloor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1260 0.1260 0.1260
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\concrete_openfoundation.jpg
+	map_Kd maps\concrete_openfoundation.jpg
+	map_bump maps\concrete_openfoundation_b.jpg
+	bump maps\concrete_openfoundation_b.jpg
+
+newmtl _factory03___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1350 0.1350 0.1350
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\america025_t.jpg
+	map_Kd maps\america025_t.jpg
+	map_bump maps\america025_b.jpg
+	bump maps\america025_b.jpg
+
+newmtl _factorybunker247
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1980 0.1980 0.1980
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\ConcreteBunker0247_t.jpg
+	map_Kd maps\ConcreteBunker0247_t.jpg
+	map_bump maps\ConcreteBunker0247_b.jpg
+	bump maps\ConcreteBunker0247_b.jpg
+
+newmtl _factorysteps
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2970 0.2970 0.2970
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Concrete3.jpg
+	map_Kd maps\Concrete3.jpg
+	map_bump maps\Concrete3.jpg
+	bump maps\Concrete3.jpg
+
+newmtl _factory07___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 0.8980 0.0000
+	Kd 1.0000 0.8980 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _factorytile01
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 0.9412 0.7804
+	Kd 1.0000 0.9412 0.7804
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.4600 0.4329 0.3590
+	map_Ka maps\GlassPane1.jpg
+	map_Kd maps\GlassPane1.jpg
+
+newmtl _factory09___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5882 0.5882 0.5882
+	Kd 0.5882 0.5882 0.5882
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _factory11___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1440 0.1440 0.1440
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Concrete4.jpg
+	map_Kd maps\Concrete4.jpg
+	map_bump maps\Concrete4b.jpg
+	bump maps\Concrete4b.jpg
+
+newmtl _factorymetal1
+	Ns 41.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9804 0.9804 0.9804
+	Kd 0.9804 0.9804 0.9804
+	Ks 0.3880 0.3880 0.3880
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\pai003.jpg
+	map_Kd maps\pai003.jpg
+	map_bump maps\pai003.jpg
+	bump maps\pai003.jpg
+
+newmtl _factorytank3
+	Ns 6.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.4230 0.4230 0.4230
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\WhitePaint_t.jpg
+	map_Kd maps\WhitePaint_t.jpg
+	map_bump maps\WhitePaint_t.jpg
+	bump maps\WhitePaint_t.jpg
+
+newmtl _factorytank1
+	Ns 15.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1754 0.3211 0.4610
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\BluePaint_t.jpg
+	map_Kd maps\BluePaint_t.jpg
+	map_bump maps\WhitePaint_t.jpg
+	bump maps\WhitePaint_t.jpg
+
+newmtl _factory21___Default
+	Ns 22.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1800 0.1800 0.1800
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\metal_plain01.jpg
+	map_Kd maps\metal_plain01.jpg
+	map_bump maps\metal_plain01.jpg
+	bump maps\metal_plain01.jpg
+
+newmtl _factory19___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.9804 0.9804 0.9804
+	Kd 0.9804 0.9804 0.9804
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\crate.bmp
+	map_Kd maps\crate.bmp
+
+newmtl _factorycabinet
+	Ns 36.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Cabinet_t.tga
+	map_Kd maps\Cabinet_t.tga
+	map_Ks maps\Cabinet_s.tga
+	map_bump maps\Cabinet_n.tga
+	bump maps\Cabinet_n.tga

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0 0 0" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="0.0,0.05,0.9,1.0" has_shadow="false" shadow_size = "1" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+	
+ 	<tracing method="fragment" 
+	active="true" 
+	faces="single"
+	thickness="0.03"
+	iterations_per_frame="1" 
+	indirect_bounces="1" 
+	application="path_tracing"
+	ray_distance="0.2"
+	ray_distance_increments="0.1"
+	samples_per_ray="50"
+	buckets="4" 
+	progressive="true"
+	max_layers="30"
+	prealloc_fragments="5000000"
+	dof="1" focal_distance="1.3" aperture_radius="0.004"/> 
+	
+	<directory path="bunny"/>
+	
+	<camera name="first_person" aperture="35.0" near="0.1" far="10" follow="default_user" primary="true">
+	</camera>
+
+	<light name="sun" shadows="on" flux="12" color="0.3 0.6 0.9" active="true" type="spotlight" rsm="false"
+	 far_range="10" near_range="0.6" 
+	 position	=" 0.99, 0.84, 1.95"
+	 target		=" -0.62, -0.06, -0.43"
+	 conical="true" resolution="1024" aperture="90" soft_shadow_size="0.1" 
+	 penumbra="80" spotlight_exponent="1.0"
+	 constant_bias="0.0019">
+	</light>
+		
+	<transformation name="environment" rotation="0,0,1,0" scale="0.01, 0.01, 0.01" translation="0,0,0">
+
+	<transformation name="ball" rotation="0,0,1,0" scale="0.9, 0.9, 0.9" translation="2.5,-1,1">
+		<object file="ball.obj"/>
+		</transformation>
+		<object file="bunny.obj"/>
+		<object file="chair.obj"/>
+		<object file="env2.obj"/>
+		<object file="floor.obj"/>
+		<object file="lamp.obj"/>
+		<object file="lamp_cover.obj"/>
+		<object file="lunchbox.obj"/>
+		<object file="mobilo.obj"/> 
+		<object file="plate.obj"/>
+		<object file="poster.obj"/>
+		
+	</transformation>
+
+	<user name="default_user" control="roaming" linear_speed="0.5" angular_speed="1" 
+	position = "-0.05, 0.36, 1.38"
+	lookat   = "-0.13, 0.18, -1.63"
+	input="default_input">  
+	</user>	
+    
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="1" white="4 4 4" hysterisis="0.95" auto="0" active="1"/> 
+
+</world>

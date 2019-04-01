@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="1 1.2 1.5" ambient="0 0 0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+  
+  <gi resolution="16" active="yes" method="crc" bounces="0" samples="100" factor="1" spread="0.8" 
+  lights="sun" average_albedo="0.7" blend_factor="0.6" use_ao="true" first_bounce_occ_samples = "10"/>
+  
+  <ambientocclusion active="yes" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="2" range_inc="0.1"  multiview="no" views="sun"></ambientocclusion>
+  
+  <directory path="canyon"></directory>
+
+  <camera name="default_camera" aperture="45.0" near="0.2" far="100" follow="default_user" primary="true">
+  </camera>
+    
+  <user name="default_user" linear_speed="18.0" angular_speed="1.0" position = "-6.3, 45.2, 48.8" target   = "-5.8, 43.3, 46.5" input="default_input">
+  </user>
+ 
+  <input name="default_input" devicename="device0"/>
+ 
+  <transformation name="environment" rotation="0,1,0,0" 
+                  scale="0.1 0.1 0.1" translation="0,0,0">
+	  <object name="geom2" file="canyon.obj" polygon_mode="triangles"></object>
+	 
+  </transformation>
+
+		<light name="sun" shadows="on" flux="200000" color="0.65 0.6 0.4" active="true" type="spotlight" rsm="true"
+				far_range="270" near_range="90"
+				position="-160,170,0" target="0,20,0" 
+				resolution="1024" conical="false" aperture="50" soft_shadow_size="0.5" constant_bias="0.002">
+		</light>
+
+	
+	<eventmessage event="init" recipient="spinner1" message="stop" />
+	
+  	<tonemapping name="tone" key="6" white="15 15 15" hysterisis="0.75" auto="0" active="0"/>
+	
+</world>

@@ -1,0 +1,543 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 08.03.2016 15:04:55
+
+newmtl blacksmith_metals
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_metal_a.jpg
+	map_Kd maps\blacksmith_metal_a.jpg
+	map_Ks maps\blacksmith_metal_sg.jpg
+	map_bump maps\blacksmith_metal_b.jpg
+	bump maps\blacksmith_metal_b.jpg
+
+newmtl blacksmith_buckets
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\prop_bucket_01_a.jpg
+	map_Kd maps\prop_bucket_01_a.jpg
+	map_Ks maps\prop_bucket_01_sg.jpg
+	map_bump maps\prop_bucket_01_b.jpg
+	bump maps\prop_bucket_01_b.jpg
+
+newmtl blacksmith_candle_light
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_candle_light_a.jpg
+	map_Kd maps\blacksmith_candle_light_a.jpg
+	map_Ks maps\blacksmith_candle_light_sg.jpg
+	map_bump maps\blacksmith_candle_light_b.jpg
+	bump maps\blacksmith_candle_light_b.jpg
+
+newmtl Small_Tree
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Small_Tree_diff.tif
+	map_Kd maps\Small_Tree_diff.tif
+
+newmtl Fern_01
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Fern_diff.tif
+	map_Kd maps\Fern_diff.tif
+	map_bump maps\Fern_diff.tif
+	bump maps\Fern_diff.tif
+
+newmtl weapons
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\prop_sword_shovel_halberd_01_d.jpg
+	map_Kd maps\prop_sword_shovel_halberd_01_d.jpg
+	map_Ks maps\prop_sword_shovel_halberd_01_sg.jpg
+	map_bump maps\prop_sword_shovel_halberd_01_d.jpg
+	bump maps\prop_sword_shovel_halberd_01_d.jpg
+
+newmtl Smithy_stump
+	Ns 37.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Smithy_stump_a.jpg
+	map_Kd maps\Smithy_stump_a.jpg
+	map_bump maps\Smithy_stump_b.jpg
+	bump maps\Smithy_stump_b.jpg
+
+newmtl barrels
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\prop_barrel_01_a.jpg
+	map_Kd maps\prop_barrel_01_a.jpg
+	map_Ks maps\prop_barrel_01_s.jpg
+	map_bump maps\prop_bucket_01_b.jpg
+	bump maps\prop_bucket_01_b.jpg
+
+newmtl blacksmith_cart_wheels
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_wheel_a.jpg
+	map_Kd maps\blacksmith_wheel_a.jpg
+	map_Ks maps\blacksmith_wheel_sg.jpg
+	map_bump maps\blacksmith_wheel_b.jpg
+	bump maps\blacksmith_wheel_b.jpg
+
+newmtl planks_mat
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Planks_a.jpg
+	map_Kd maps\Planks_a.jpg
+	map_bump maps\Planks_b.jpg
+	bump maps\Planks_b.jpg
+
+newmtl blacksmith_dirt_floor
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Moss_02_a.jpg
+	map_Kd maps\Moss_02_a.jpg
+
+newmtl Volund_tools
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tool_pliers_01_a.jpg
+	map_Kd maps\tool_pliers_01_a.jpg
+	map_Ks maps\tool_pliers_01_sg.jpg
+	map_bump maps\tool_pliers_01_a.jpg
+	bump maps\tool_pliers_01_a.jpg
+
+newmtl Anvil
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Anvil_a.tif
+	map_Kd maps\Anvil_a.tif
+	map_Ks maps\Anvil_sg.jpg
+	map_bump maps\Anvil_b.jpg
+	bump maps\Anvil_b.jpg
+
+newmtl SmithyLog_01
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Moss_decals_a.tif
+	map_Kd maps\Moss_decals_a.tif
+	map_Ks maps\Moss_decals_sg.jpg
+	map_bump maps\Moss_decals_b.jpg
+	bump maps\Moss_decals_b.jpg
+
+newmtl Blacksmith_beams
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_wooden_beams_a.jpg
+	map_Kd maps\blacksmith_wooden_beams_a.jpg
+	map_bump maps\blacksmith_wooden_beams_b.jpg
+	bump maps\blacksmith_wooden_beams_b.jpg
+
+newmtl Blacksmith_planks
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_planks_a.jpg
+	map_Kd maps\blacksmith_planks_a.jpg
+	map_Ks maps\blacksmith_planks_s.jpg
+	map_bump maps\blacksmith_planks_b.jpg
+	bump maps\blacksmith_planks_b.jpg
+
+newmtl Blacksmith_chair
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Chair_a.jpg
+	map_Kd maps\Chair_a.jpg
+	map_Ks maps\Chair_sg.jpg
+	map_bump maps\Chair_a.jpg
+	bump maps\Chair_a.jpg
+
+newmtl Wooden_planks_set
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Planks_a.jpg
+	map_Kd maps\Planks_a.jpg
+	map_Ks maps\Planks_sg.jpg
+	map_bump maps\Planks_b.jpg
+	bump maps\Planks_b.jpg
+
+newmtl blacksmith_clovers
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\smithy_floor_plants_a.tif
+	map_Kd maps\smithy_floor_plants_a.tif
+	map_Ks maps\smithy_floor_plants_sg.jpg
+	map_bump maps\smithy_floor_plants_b.jpg
+	bump maps\smithy_floor_plants_b.jpg
+
+newmtl blacksmith_forge
+	Ns 69.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Smithy_forge_a3.jpg
+	map_Kd maps\Smithy_forge_a3.jpg
+	map_bump maps\Smithy_forge_b.jpg
+	bump maps\Smithy_forge_b.jpg
+
+newmtl blacksmith_rope
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Ropes_a.jpg
+	map_Kd maps\Ropes_a.jpg
+	map_Ks maps\Ropes_sg.jpg
+	map_bump maps\Ropes_b.jpg
+	bump maps\Ropes_b.jpg
+
+newmtl wall_ivy_diff
+	Ns 56.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\wall_ivy_diff.TIF
+	map_Kd maps\wall_ivy_diff.TIF
+	map_bump maps\wall_ivy_b.jpg
+	bump maps\wall_ivy_b.jpg
+
+newmtl blacksmith_door
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_front_door_a.jpg
+	map_Kd maps\blacksmith_front_door_a.jpg
+	map_Ks maps\blacksmith_front_door_sg.jpg
+	map_bump maps\blacksmith_front_door_b.jpg
+	bump maps\blacksmith_front_door_b.jpg
+
+newmtl shields
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\prop_shield_01_d.jpg
+	map_Kd maps\prop_shield_01_d.jpg
+	map_Ks maps\prop_shield_01_sg.jpg
+	map_bump maps\prop_shield_02_b.jpg
+	bump maps\prop_shield_02_b.jpg
+
+newmtl blacksmith_stone
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\House_foundation_a.jpg
+	map_Kd maps\House_foundation_a.jpg
+	map_Ks maps\House_foundation_sg.jpg
+	map_bump maps\House_foundation_b.jpg
+	bump maps\House_foundation_b.jpg
+
+newmtl blacksmith_stone_floor
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Smithy_stone_floor_a.jpg
+	map_Kd maps\Smithy_stone_floor_a.jpg
+	map_Ks maps\Smithy_stone_floor_sg.jpg
+	map_bump maps\Smithy_stone_floor_b.jpg
+	bump maps\Smithy_stone_floor_b.jpg
+
+newmtl wooden_props
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\wooden_props_a.jpg
+	map_Kd maps\wooden_props_a.jpg
+	map_bump maps\wooden_props_a.jpg
+	bump maps\wooden_props_a.jpg
+
+newmtl blacksmith_beams_broken
+	Ns 30.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\blacksmith_wooden_beams_broken_a.jpg
+	map_Kd maps\blacksmith_wooden_beams_broken_a.jpg
+	map_bump maps\blacksmith_wooden_beams_broken_b.jpg
+	bump maps\blacksmith_wooden_beams_broken_b.jpg
+
+newmtl blacksmith_coal
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\coal2_a.jpg
+	map_Kd maps\coal2_a.jpg
+	map_Ks maps\coal_sg.jpg
+	map_Ke maps\coal2_e.jpg
+	map_bump maps\coal_n.jpg
+	bump maps\coal_n.jpg
+
+newmtl stone_steps
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Smithy_stone_floor_a.jpg
+	map_Kd maps\Smithy_stone_floor_a.jpg
+	map_Ks maps\Smithy_stone_floor_sg.jpg
+	map_bump maps\Smithy_stone_floor_b.jpg
+	bump maps\Smithy_stone_floor_b.jpg
+
+newmtl Decal_Radial_01
+	Ns 63.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Decal_Radial_01_a.tif
+	map_Kd maps\Decal_Radial_01_a.tif
+	map_bump maps\Decal_Radial_01_b.jpg
+	bump maps\Decal_Radial_01_b.jpg
+
+newmtl Blacksmith_decal_01
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Decal_01_a.tif
+	map_Kd maps\Decal_01_a.tif
+	map_bump maps\Decal_01_b.jpg
+	bump maps\Decal_01_b.jpg
+
+newmtl black
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 0.0000 0.0000 0.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000

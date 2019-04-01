@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0.4 0.5 1" ambient="0 0 0">
+
+  <font name="consola" filename="consolab" size="20" color="1,0.9,0.7,1.0" has_shadow="true" shadow_size = "2.0" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/> 
+  
+  <ambientocclusion active="yes" technique="ssao_alchemy" blur="yes" numsamples="16" numslices="8" range="0.6" range_inc="0.1"  multiview="no"></ambientocclusion>
+		
+  <gi resolution="24" active="yes" method="crc" bounces="1" samples="100" factor="1" spread="0.8" lights="sun" average_albedo="0.7" blend_factor="0.6" use_ao="true" first_bounce_occ_samples = "10"/>
+  
+  <directory path="level1"/>
+  
+  <camera name="first_person" apperture="60.0" focal_distance ="20.0" focal_range="40.0"
+          near="0.25" far="150" follow="default_user" primary="true"/>
+
+	<object name="test" file="level1.obj"/>
+	
+	<user name="default_user" linear_speed="5.0" angular_speed = "1.0" input="default_input"
+         position="13.6, 0.5, 17.2" lookat="14.2, 0.4, 14.3">
+        </user>
+
+    <light name="sun" shadows="on" flux="300000" color="0.78,0.76,0.65" active="true" type="spotlight" rsm="true"
+                           far_range="340" near_range="10" position="0,150,0" target="14.8, 0.4, 12.1"
+                           resolution="1024" conical="false" aperture="5" soft_shadow_size="1" constant_bias="0.00002">
+  </light>
+		<light name="sky" shadows="on" flux="10000" color="0.02,0.02,0.03" active="false" type="spotlight" rsm="true"
+			far_range="140" near_range="30" 
+			position="0,40,0" target="0,13,0" 
+		    resolution="128" conical="false" apperture="20" soft_shadow_size="0.5" constant_bias="0.002">
+	</light> 
+  	
+  <input name="default_input" devicename="device0">
+  </input>
+  
+  	<tonemapping name="tone" key="0.8" white="1.4 1.4 1.4" hysterisis="0.95" auto="0" active="1"/>
+
+</world>
+

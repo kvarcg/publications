@@ -1,0 +1,147 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 16.03.2016 15:40:00
+
+newmtl Dreadnaught_DarkMetal
+	Ns 120.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.3176 0.3176 0.3176
+	Kd 1 1 1
+	Ks 0.3 0.3 0.3
+	Ke 0.0000 0.0000 0.0000
+	
+	metallic 1
+
+newmtl Dreadnaught_Metal
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7961 0.7961 0.7961
+	Kd 0.9 0.8 0.7961
+	Ks 0.2 0.2 0.2
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\MetalBare0054_2_S.jpg
+	map_Kd maps\MetalBare0054_2_S.jpg
+	metallic 1
+
+newmtl _dreadnaught_2013Left_foot_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl _dreadnaught_2013Chest
+	Ns 126.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0667 0.2941 0.8118
+	Kd 0.0667 0.2941 0.8118
+	Ks 0.2700 0.2700 0.2700
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\MetalPainted0036_M.jpg
+	map_Kd maps\MetalPainted0036_M.jpg
+	map_Ks maps\MetalPainted0036_S.jpg
+	metallic 0.7
+
+newmtl _dreadnaught_2013Right_foot_1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.5880 0.5880 0.5880
+	Kd 0.5880 0.5880 0.5880
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Dreadnaught_Gold
+	Ns 125.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7961 0.4941 0.2196
+	Kd 0.7961 0.4941 0.2196
+	Ks 0.4 0.4 0.4
+	Ke 0.0000 0.0000 0.0000
+	metallic 0.99
+
+newmtl Dreadnaught_Bronze
+	Ns 112.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.6941 0.4941 0.4078
+	Kd 0.6941 0.4941 0.3078
+	Ks 0.3 0.3 0.3
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\brass.jpg
+	map_Kd maps\brass.jpg
+	metallic 1
+
+newmtl Dreadnaught_Rubber
+	Ns 54.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1373 0.1373 0.1373
+	Kd 0.01373 0.01373 0.01373
+	Ks 0.0130 0.0130 0.0130
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Dreadnaught_Light
+	Ns 41.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.7961 0.1569 0.0000
+	Kd 0.7961 0.1569 0.0000
+	Ks 0.2700 0.2700 0.2700
+	Ke 25 20 5
+
+newmtl Dreadnaught_Visor
+	Ns 1.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0784 0.1059 0.1059
+	Kd 0 0 0
+	Ks 0 0 0
+	Ke 0.0000 0.0000 0.0000
+
+newmtl Dreadnaught_Light2
+	Ns 100.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 0.8510 0.6118
+	Kd 1.0000 0.8510 0.6118
+	Ks 0.2700 0.2700 0.2700
+	Ke 5 1 0

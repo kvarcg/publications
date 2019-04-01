@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<world background="0 0 0" ambient="0 0 0" show_fps="true" microfacet_model="beckmann" multithreaded_loading="true" binary_loading="true">
+
+	<font name="consola" filename="consolab" size="12" color="0.0,0.05,0.9,1.0" has_shadow="false" shadow_size = "1" shadow_color="0.0 0.0 0.0 1.0" shadow_dir="1.0 -1.0" active = "true"/>
+ 
+ 	<tracing method="fragment" 
+	active="true" 
+	faces="cubemap" 
+	thickness="0.1"
+	iterations_per_frame="1" 
+	indirect_bounces="1" 
+	application="ambient_occlusion"
+	ray_distance="2"
+	ray_distance_increments="1"
+	samples_per_ray="50"
+	buckets="4" 
+	progressive="true"
+	max_layers="50"
+	prealloc_fragments="15000000"
+	dof="1" focal_distance="4.3" aperture_radius="0.004"/> 
+
+	<directory path="Blacksmith"></directory>
+
+	<camera name="first_person" aperture="50.0" near="0.5" far="100" follow="default_user" primary="true">
+	</camera>
+
+	<object name="barracks01" file="Blacksmith.obj"/>
+  
+    <user name="default_user" control="roaming" linear_speed="2" angular_speed="1" 
+	position = "2.3, 4.6, -17.3" 
+	lookat=" 2.3, 4.2, -14.3"  
+	input="default_input">
+	</user>
+  
+	<input name="default_input" devicename="device0">
+	</input>
+
+	<tonemapping name="tone" key="0.96" white="1.0 1.0 1.0" hysterisis="0.95" auto="0" active="1"/> 
+	
+</world>

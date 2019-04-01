@@ -1,0 +1,178 @@
+# 
+# Wavefront material file
+# Converted by the DEEP Exploration  Deep Exploration 5 5.0.0.1399 Release
+# Right Hemisphere, LTD
+# http://www.righthemisphere.com/
+# 
+
+newmtl cliff03
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.153 0.153 0.153
+illum 2
+Ns 10
+map_Kd maps\Cliff03.jpg
+map_bump maps\Cliff03_n.jpg
+bump maps\Cliff03_n.jpg
+
+newmtl blastdoor
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.162 0.162 0.162
+illum 2
+Ns 10
+map_Kd maps\blastdoor.jpg
+map_bump maps\blastdoor_n.jpg
+bump maps\blastdoor_n.jpg
+
+newmtl _7___Default
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.189 0.189 0.189
+illum 2
+Ns 10
+map_Kd maps\gravelc.jpg
+map_bump maps\gravelc_n.jpg
+bump maps\gravelc_n.jpg
+
+newmtl tunnel_floor
+Ka 1 1 1
+Kd 1 1 1
+Ks 0 0 0
+illum 2
+Ns 10
+map_Kd maps\concrete_openfoundation.jpg
+map_bump maps\concrete_openfoundation_b.jpg
+bump maps\concrete_openfoundation_b.jpg
+
+newmtl cliff01
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.153 0.153 0.153
+illum 2
+Ns 10
+map_Kd maps\Cliff01.jpg
+map_bump maps\Cliff01_n.jpg
+bump maps\Cliff01_n.jpg
+
+newmtl _5___Default
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.675 0.675 0.675
+illum 2
+Ns 30
+map_Kd maps\metal_plain01.jpg
+
+newmtl cliff02
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.153 0.153 0.153
+illum 2
+Ns 10
+map_Kd maps\Cliff02.jpg
+map_bump maps\Cliff02_n.jpg
+bump maps\Cliff02_n.jpg
+
+newmtl cement_wall
+Ka 1 1 1
+Kd 0.9333 0.9333 0.9333
+Ks 0.063 0.063 0.063
+illum 2
+Ns 10
+map_Kd maps\gy003.jpg
+
+newmtl c_concrete_pillar
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.189 0.189 0.189
+illum 2
+Ns 10
+map_Kd maps\Concrete3.jpg
+map_bump maps\Concrete4b.jpg
+bump maps\Concrete4b.jpg
+
+newmtl c_concrete_bottom
+Ka 1 1 1
+Kd 1 1 1
+Ks 0.189 0.189 0.189
+illum 2
+Ns 10
+map_Kd maps\Concrete4.jpg
+map_bump maps\Concrete4b.jpg
+bump maps\Concrete4b.jpg
+
+newmtl metal2
+Ka 1 1 1
+Kd 0.9216 0.9216 0.9216
+Ks 0.1944 0.1944 0.1944
+illum 2
+Ns 21
+map_Kd maps\metal_oxidized.jpg
+map_bump maps\metal_oxidized.jpg
+bump maps\metal_oxidized.jpg
+
+newmtl metal1
+Ka 1 1 1
+Kd 0.9804 0.9804 0.9804
+Ks 0.388 0.388 0.388
+illum 2
+Ns 41
+map_Kd maps\pai003.jpg
+map_bump maps\pai003.jpg
+bump maps\pai003.jpg
+
+newmtl doormetalsingle
+Ka 1 1 1
+Kd 0.5882 0.5882 0.5882
+Ks 0.117 0.117 0.117
+illum 2
+Ns 10
+map_Kd maps\DoorsMetalSingle.jpg
+map_bump maps\DoorsMetalSingle.jpg
+bump maps\DoorsMetalSingle.jpg
+
+newmtl Mil_metal_shiny
+Ka 0.7098 0.7098 0.7098
+Kd 0.7098 0.7098 0.7098
+Ks 0.36 0.36 0.36
+illum 2
+Ns 10
+
+newmtl black_mil_paint
+Ka 0.1255 0.1255 0.1255
+Kd 0.1255 0.1255 0.1255
+Ks 0.324 0.324 0.324
+illum 2
+Ns 20
+
+newmtl _1___Default
+Ka 1 1 1
+Kd 0.7373 0.6941 0.6
+Ks 0.117 0.117 0.117
+illum 2
+Ns 10
+map_Kd maps\Desert-camouflage.jpg
+
+newmtl w
+Ka 0.8235 0.8235 0.8235
+Kd 0.8235 0.8235 0.8235
+Ks 0.72 0.72 0.72
+illum 2
+Ns 10
+d 0.09
+
+newmtl red_lamp
+Ka 1 0.1765 0
+Kd 1 0.1765 0
+Ks 0.225 0.225 0.225
+Ke 1 1 1
+illum 2
+Ns 25
+
+newmtl glowrings
+Ka 0.9216 0.9294 0.9412
+Kd 0.3216 0.3294 0.9412
+Ks 0 0 0
+Ke 1 1 1
+illum 2
+Ns 10

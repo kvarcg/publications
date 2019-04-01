@@ -1,0 +1,268 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 27.09.2011 17:10:56
+
+newmtl white
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1530 0.1530 0.1530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\TempleWallPaintWhite.jpg
+	map_Kd maps\TempleWallPaintWhite.jpg
+	map_bump maps\TempleWallWhiteBump.jpg
+	bump maps\TempleWallWhiteBump.jpg
+
+newmtl attriumfloor
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1530 0.1530 0.1530
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\atriumfloor.jpg
+	map_Kd maps\atriumfloor.jpg
+	map_bump maps\atriumfloor.jpg
+	bump maps\atriumfloor.jpg
+
+newmtl stone1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2430 0.2430 0.2430
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Stone1.jpg
+	map_Kd maps\Stone1.jpg
+	map_bump maps\Stone1.jpg
+	bump maps\Stone1.jpg
+
+newmtl block1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2610 0.2610 0.2610
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face1_t.jpg
+	map_Kd maps\face1_t.jpg
+	map_bump maps\face1_t.jpg
+	bump maps\face1_t.jpg
+
+newmtl col1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0990 0.0990 0.0990
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\knossos_col.jpg
+	map_Kd maps\knossos_col.jpg
+
+newmtl red
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1080 0.1080 0.1080
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\TempleWallDecoRed.jpg
+	map_Kd maps\TempleWallDecoRed.jpg
+	map_bump maps\TempleWallDecoBump.jpg
+	bump maps\TempleWallDecoBump.jpg
+
+newmtl block2
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.2610 0.2610 0.2610
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\face3_t.jpg
+	map_Kd maps\face3_t.jpg
+	map_bump maps\face3_t.jpg
+	bump maps\face3_t.jpg
+
+newmtl bricks
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0720 0.0720 0.0720
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\spnza_bricks_a_diff.jpg
+	map_Kd maps\spnza_bricks_a_diff.jpg
+	map_bump maps\spnza_bricks_a_spec.jpg
+	bump maps\spnza_bricks_a_spec.jpg
+
+newmtl 08___Default
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0990 0.0990 0.0990
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\TempleWallPaintOchre.jpg
+	map_Kd maps\TempleWallPaintOchre.jpg
+	map_bump maps\TempleWallPaintBump.jpg
+	bump maps\TempleWallPaintBump.jpg
+
+newmtl floor1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1350 0.1350 0.1350
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\tiles1.jpg
+	map_Kd maps\tiles1.jpg
+	map_bump maps\tiles1_b.jpg
+	bump maps\tiles1_b.jpg
+
+newmtl dokos
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0720 0.0720 0.0720
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\knossos_dokos_yellow.jpg
+	map_Kd maps\knossos_dokos_yellow.jpg
+	map_bump maps\knossos_dokos_yellow.jpg
+	bump maps\knossos_dokos_yellow.jpg
+
+newmtl ceil1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1350 0.1350 0.1350
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\ceil.jpg
+	map_Kd maps\ceil.jpg
+	map_bump maps\ceil.jpg
+	bump maps\ceil.jpg
+
+newmtl pilar1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.3150 0.3150 0.3150
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Drum1_3.jpg
+	map_Kd maps\Drum1_3.jpg
+	map_bump maps\Drum1_3.jpg
+	bump maps\Drum1_3.jpg
+
+newmtl crack
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1890 0.1890 0.1890
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Rock_Wall3_t.jpg
+	map_Kd maps\Rock_Wall3_t.jpg
+	map_bump maps\Rock_Wall3_t.jpg
+	bump maps\Rock_Wall3_t.jpg
+
+newmtl 08___Defaulttt
+	Ns 25.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\Stone1.jpg
+	map_Kd maps\Stone1.jpg
+
+newmtl Fresco1
+	Ns 10.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.1440 0.1440 0.1440
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\fresco1.jpg
+	map_Kd maps\fresco1.jpg
+	map_bump maps\fresco1.jpg
+	bump maps\fresco1.jpg
+
+newmtl black
+	Ns 0.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0000 0.0000 0.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0000 0.0000 0.0000
+	Ke 0.0000 0.0000 0.0000
+	map_Ka maps\black.jpg
+	map_Kd maps\black.jpg
