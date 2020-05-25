@@ -1,5 +1,5 @@
-# publications
-This repo contains any source code from my past publications. They are also available on my [webpage](https://kostasvardis.com) and on the official website of the [AUEB Computer Graphics Group](http://graphics.cs.aueb.gr/graphics).
+# Publications
+This repo contains any source code from my past publications. They are also available (along with the author's version documents) on my [webpage](https://kostasvardis.com) and on the official website of the [AUEB Computer Graphics Group](http://graphics.cs.aueb.gr/graphics).
 I also decided to make them available here.
 
 List of papers:
@@ -15,4 +15,13 @@ List of papers:
 Each paper is placed on its corresponding folder, each one containing GLSL source code and (if available) the runtime demo.
 The code is provided as is. You are free (and encouraged) to use it at any of your projects, but please cite the corresponding authors. You can always contact me for any information.
 
-All this work was implemented on AUEB CG Group's internal graphics engine, XEngine. An older version is available [here](http://graphics.cs.aueb.gr/graphics/downloads.html). Since the aforementioned papers are part of the engine's complex codebase, a full C++ demo is not easy to provide and, frankly, it would make each method much more difficult to understand, in terms of clarity. However, if you need one, you can always contact me.
+All this work was implemented on AUEB CG Group's internal graphics engine, XEngine. A (quite) old version is available [here](http://graphics.cs.aueb.gr/graphics/downloads.html). Since the aforementioned papers are part of the engine's complex codebase, a full C++ demo is not easy to provide and, frankly, it would make each method much more difficult to understand, in terms of clarity. However, if you need one, you can always contact me.
+
+## External Links
+To avoid maintaining code duplicates here and there, additional links for other research material is provided below:
+
+| **Paper**  | Link | Description |
+| --- | --- | --- |
+| [A Survey of Multifragment Rendering - EG STAR 2020](https://diglib.eg.org/handle/10.2312/egsh20171005) | [github.com/cgaueb/MFR](https://github.com/cgaueb/MFR) | Complete MFR repository |
+| [Rayground: An Online Educational Tool for Ray Tracing - EG EDU 2020](https://diglib.eg.org/handle/10.2312/eged20201027) | [rayground.com](https://rayground.com) | Official Website |
+
