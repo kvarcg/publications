@@ -22,6 +22,6 @@ To avoid maintaining code duplicates here and there, additional links for other 
 
 | **Paper**  | Link | Description |
 | --- | --- | --- |
-| [A Survey of Multifragment Rendering - CGF (EG STAR) 2020](https://diglib.eg.org/handle/10.2312/egsh20171005) | [github.com/cgaueb/MFR](https://github.com/cgaueb/MFR) | Complete MFR repository |
+| [A Survey of Multifragment Rendering - CGF (EG STAR) 2020](https://diglib.eg.org/handle/10.1111/cgf14019) | [github.com/cgaueb/MFR](https://github.com/cgaueb/MFR) | Complete MFR repository |
 | [Rayground: An Online Educational Tool for Ray Tracing - EG EDU 2020](https://diglib.eg.org/handle/10.2312/eged20201027) | [rayground.com](https://rayground.com) | Official Website |
 
