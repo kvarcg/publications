@@ -6,11 +6,11 @@ List of papers:
 
 | **Paper**  | Data |
 | --- | --- |
-| [Multi-view Ambient Occlusion with Importance Sampling - i3D 2013](http://dl.acm.org/citation.cfm?id=2448214) | GLSL Shaders |
-| [Real-time Radiance Caching using Chrominance Compression - JCGT 2014](http://jcgt.org/published/0003/04/06/) | GLSL Shaders and Windows runtime demo |
-| [A Multiview and Multilayer Approach for Interactive Ray Tracing - I3D 2016](http://dl.acm.org/citation.cfm?id=2856401) | GLSL Shaders and Windows runtime demo |
-| [DIRT: Deferred Image-based Ray Tracing - HPG 2016](http://diglib.eg.org/handle/10.2312/hpg20161193) | GLSL Shaders and Windows runtime demo |
-| [Variable k-Buffer using Importance Maps - EG Short 2017](https://diglib.eg.org/handle/10.2312/egsh20171005) | GLSL Shaders |
+| [Multi-view Ambient Occlusion with Importance Sampling - i3D 2013](http://dl.acm.org/citation.cfm?id=2448214) | <a href="Multi-view Ambient Occlusion with Importance Sampling - i3D 2013">GLSL Shaders</a> |
+| [Real-time Radiance Caching using Chrominance Compression - JCGT 2014](http://jcgt.org/published/0003/04/06/) | <a href="Real-time Radiance Caching using Chrominance Compression - JCGT 2014">GLSL Shaders and Windows runtime demo</a> |
+| [A Multiview and Multilayer Approach for Interactive Ray Tracing - i3D 2016](http://dl.acm.org/citation.cfm?id=2856401) | <a href="A Multiview and Multilayer Approach for Interactive Ray Tracing - i3D 2016">GLSL Shaders and Windows runtime demo<a/> |
+| [DIRT: Deferred Image-based Ray Tracing - HPG 2016](http://diglib.eg.org/handle/10.2312/hpg20161193) | <a href="DIRT Deferred Image-based Ray Tracing - HPG 2016">GLSL Shaders and Windows runtime demo<a/> |
+| [Variable k-Buffer using Importance Maps - EG Short 2017](https://diglib.eg.org/handle/10.2312/egsh20171005) | <a href="Variable k-Buffer using Importance Maps - EG Short 2017">GLSL Shaders</a> |
 
 Each paper is placed on its corresponding folder, each one containing GLSL source code and (if available) the runtime demo.
 The code is provided as is. You are free (and encouraged) to use it at any of your projects, but please cite the corresponding authors. You can always contact me for any information.
